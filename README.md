@@ -3,13 +3,17 @@
 - NIM: 2225250114
 - Kelas: 3F
 
+---
+
 ## Tujuan
 Menulis program seleksi if, if-else, kondisi majemuk, dan nested if.
 
-## Cara Menjalankan
- 1. Buka terminal di folder project:
-   ```bash  
+---
+
+## Cara Menjalankan  
     python3 tugas/analisis_persamaan_kuadrat.py
+
+---
 
 ## Algoritma Tugas
 1. **Mulai** program.
@@ -29,6 +33,8 @@ Menulis program seleksi if, if-else, kondisi majemuk, dan nested if.
 6. **Tampilkan output** hasil perhitungan.
 7. **Selesai**.
 
+---
+
 ## Hasil Pengujian
 | Test Case | Input            |       Output Diharapkan      |        Output Aktual        |   Status  |
 |-----------|------------------|------------------------------|-----------------------------|-----------|
@@ -36,6 +42,8 @@ Menulis program seleksi if, if-else, kondisi majemuk, dan nested if.
 | 2         | a=1, b=2, c=1    | D=0, akar kembar: -1         | D=0, akar kembar: -1        |   Sesuai  |
 | 3         | a=1, b=0, c=1    | D=-4, Tidak ada akar real    | D=-4, Tidak ada akar real   |   Sesuai  |
 | 4         | a=0, b=2, c=3    | Bukan persamaan kuadrat      | Bukan persamaan kuadrat     |   Sesuai  |
+
+---
 
 ## Refleksi
 - **Kesalahan logika:** Kondisi `D == 0` ditempatkan di dalam `if D > 0`, sehingga tidak bisa dijalankan. serta Pesan "tidak memiliki akar real" juga salah posisi masih di dalam kondisi `D == 0`.  
